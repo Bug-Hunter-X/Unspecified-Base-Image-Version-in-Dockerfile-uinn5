@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: the use of an unspecified base image version.  Using `ubuntu:latest` can lead to unexpected behavior or build failures as the base image changes over time.  The `Dockerfile_fixed` provides a corrected version specifying a specific Ubuntu version.
